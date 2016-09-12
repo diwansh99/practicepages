@@ -1,0 +1,147 @@
+<html>
+<head>
+<style>
+ul{
+list-style-type:none;
+background-color:black;
+margin:0;
+padding:0;
+top:0;
+left:0;
+position:absolute}
+li{
+float:left;
+border-right:1px solid white;}
+li a, .dropbutton{
+display:inline-block;
+color:white;
+padding:14 24 14 24;
+text-align:center;
+font-weight:bold;
+text-decoration:none
+}
+li a:hover, .dropdown:hover .dropbutton{
+text-decoration:underline;
+color:white
+}
+.dropdown{
+display:inline-block;
+position:relative;
+}
+.dropdown-content{
+display:none;
+position:absolute;
+background-color:lightyellow;
+min-width:250;
+}
+.dropdown-content a{
+color:black;
+text-decoration:none;
+display:block;
+}
+.dropdown:hover .dropdown-content{
+display:block
+}
+display-content:hover{
+background-color:black;
+}
+input[type=text]{
+background-color:white;
+background-image:url('https://www.google.co.in/imgres?imgurl=http://www.clker.com/cliparts/9/T/2/h/X/7/search-icon-hi.png&imgrefurl=http://www.clker.com/clipart-search-icon-12.html&h=598&w=600&tbnid=SnwzyiNf1tuNMM:&docid=A61wJrsU7oAnHM&ei=MNuQVtzwGc6hugTqlr1w&tbm=isch&ved=0ahUKEwjcyL6kvZzKAhXOkI4KHWpLDw4QMwgoKAMwAw');
+background-position:10px 10px;
+background-repeat:no-repeat;
+width:270px;
+height:20px;
+border-radius:20;
+}
+.sec{
+background-color:lavender;
+top:50;
+left:0;
+position:absolute;
+width:1360px;
+height:470px;
+}
+.sec h2{
+direction:rtl;
+padding:10 30 10 10;
+font-weight:bold
+}
+#img{width:650px;
+height:350px;
+padding:10 20 20 30;
+position:relative;
+opacity: 1.0;
+}
+
+#img2{
+position:relative;
+width:290;
+height:180px;
+padding:10 20 20 30;
+}
+#img3{
+position:absolute;
+width:290;
+height:140;
+padding:10 20 20 30;
+top:90;
+left:700
+}
+#img4{
+position:absolute;
+width:290;
+height:140;
+padding:10 20 20 30;
+top:90;
+left:1010
+}
+#img5{
+position:absolute;
+width:290;
+height:180;
+padding:10 20 20 30;
+top:255;
+left:1010
+}
+
+
+</style>
+</head>
+<body>
+<ul><li><a style="padding:12 24 10 24" href="http://www.bbc.com/"><img src="http://static.bbci.co.uk/frameworks/barlesque/3.7.3/orb/4/img/bbc-blocks-light.png">
+</a></li><li><a style="padding:14 74 14 24" href="http://ssl.bbc.com/id/signin?ptrt=http%3A%2F%2Fwww.bbc.com%2F">Sign in</a></li><li>
+<a href="http://www.bbc.com/news/">News</a></li>
+<li><a href="http://www.bbc.com/sport/">Sport</a></li><li><a href="http://www.bbc.com/weather/">Weather</a></li><li><a href="http://shop.bbc.com/">Shop</a></li>
+<li><a href="http://www.bbc.com/earth/">Earth</a></li><li><a href="http://www.bbc.com/travel/">Travel</a></li><li><a href="http://www.bbc.com/capital/">Capital</a>
+</li>
+<li><a href="http://www.bbc.com/culture/">Culture</a></li>
+<li><div class="dropdown"><a href="http://www.bbc.com/#orb-footer" class="dropbutton">MORE</a></li>
+<div class="display-content"><a href="http://www.bbc.com/autos/" target="_blank">Autos</a><a href="http://www.bbc.com/cbeebies" target="_blank">Cbeebies</a>
+<a href="http://www.bbc.com/arts/" target="_blank">Arts</a>
+</div></div>
+<li>"><form><input type="text" name="search" placeholder="search"></form></li>
+</ul>
+<div class="sec"><h2>SUNDAY,10 JANUARY</h2>
+<a href="http://www.bbc.com/news/world-latin-america-35269411">
+<img id="img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRqa8S3Dd0eBNTbLcbGbHy5Hy5cWI04mKczcz-7xFWkVkWOajbZwA">
+<span style="position:absolute;top:150;left:35;color:lavender;font-size:135%;"><h1><b>'El Chapo' returned to Mexico <br>Prison.</b></h1>
+<p>Mexican drug lord Joaquin "El Chapo" Guzman is paraded before<br>the 
+media and flown back to jail he escaped from last year,after his<br>
+ capture Friday</p></style></span></a>
+ <a href="http://www.bbc.com/sport/football/35155398"><img id="img2" src="http://c.files.bbci.co.uk/14877/production/_87578048_tomnichols.jpg">
+ <span style="position:absolute;top:350;left:740;color:white;SIZE:75%"><h3>EXETER CITY 2-2 LIVERPOOL</H3></SPAN></a>
+ <a href="http://www.bbc.com/capital/story/20160108-chinese-gourmands-growing-love-of-cheese">
+ <img id="img3" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTXFHoY_94pMVVc2LqVYphrF71tW70Zj3WChG_52b0yUZPI7Epq7A">
+ <span style="position:absolute;top:150;left:740;color:white;size:75%"><h3>CHINA'S NEW APPETITE FOR<br> CHEESE</h3></span></a>
+ <a href="http://www.bbc.com/future/story/20160104-the-real-reason-we-make-january-resolutions">
+ <img id="img4" src="http://ichef.bbci.co.uk/wwfeatures/1600_640/images/live/p0/3d/l0/p03dl0y1.jpg">
+ <span style="position:absolute;top:150;left:1045;color:white;size:60%;"><h3>THE REAL REASON WE MAKE<br> RESOLUTIONS WE CAN'T<BR> KEEP <h3> </a>
+ <a href="http://www.bbc.com/news/magazine-35253418">
+ <img id="img5" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPEA8PEBAPDw8QDw8NDQ8PDw8PDw8PFREWFhURFRUYHSggGBolGxUVITEhJikrLi4uFx8zODMtNygtLisBCgoKDg0NFQ8QFS0dFR0tLS0rKys1Ky0rKy0tLS0tLS0rKystLTctNystLS0rKys3KysrKysrKysrKysrKysrK//AABEIAKcBLgMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAADBQACBAEGBwj/xABAEAACAQMBBAYIAwUIAwEAAAABAgADBBEhBRIxQQZRVGFxlBMVIoGRodHSBzJSFEKxwfAjJENTY3Ky4TNiggj/xAAYAQEBAQEBAAAAAAAAAAAAAAAAAQMCBP/EAB0RAQEBAQEBAQEBAQAAAAAAAAABAhESIVFBMQP/2gAMAwEAAhEDEQA/APj3r687XdeYq/WT19edruvMVfrF0kBj6+vO13XmKv1k9fXna7rzFX6xdJAY+vrztd15ir9ZPX152u68xV+sXSQGPr687XdeYq/WT19edruvMVfrF0kBj6+vO13XmKv1nRt287XdeYq/WLhLAShgNuXna7rzFb6y3ru87XdeYrfdMAEsFhG8bavO13XmK33Sw2zd9quvMVvumECXCwjaNsXfarrzFb7pYbXu+1XXma33TGqy4WBr9bXfarrzNf7p0bWu+1XXma/3TMEhFpkwvBxtS67VdeZr/dLetLrtV15mv90GtAy37OZz6jrzV/Wd12q68zX+6d9ZXXarrzNf7oI0yJFAMsvUssF9ZXXarrzNf7p31jddquvM1/ulNydCSuV/WN12q68zX+6T1jddquvM1/unAk76OBPWN12q68zX+6VbaV12q68zX+6dNOVNOBVtp3XarrzNf7oNtq3farrzNb7pZkgXSB07Xu+13XmK33QbbZvO13XmK33SjpAusKMdt3na7rzFb6yp25edruvMVfrMrLBkQNnr687XdeYq/WT19edruvMVfrMBlZFMfX152u68xV+snr687XdeYq/WLpIEkkkgSSSSBJJJIElhOASwEogEuBIolwIcugSyrOqJdRAirLhZ1RCBYHFWEVJ0LNVGjzkt46zOqU6E30LTMvbUY0tqMx1p6M5jKlkOqE/Yx1RpTo90IaGk49O+R5+tZCLri1wZ6irSxmLrql3S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">
+ <span style="position:absolute;top:340;left:1045;color:white;size:75%"><h3>NEWS QUIZ:HOW DID<BR>DONALD TRUMP INSULT SAMUAL
+L JACKSON?<h3></span></a>
+</div>
+<p>bkjhv</p>
+</body>
+</html>
